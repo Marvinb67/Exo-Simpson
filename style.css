@@ -30,11 +30,12 @@ header figure img{
     height: 400px;
     object-fit: cover;
     object-position: top;
+    border-top : 1px solid white;
+    border-bottom : 1px solid white;
 }
 main{
     background-color: white;
     display: flex;
-    /*align-items: flex-start; */
 }
 
 nav{
@@ -81,6 +82,7 @@ aside img{
     border: 1px solid white;
     height: 300px;
     width: 200px;
+    object-fit: cover;
 }
 
 a{
